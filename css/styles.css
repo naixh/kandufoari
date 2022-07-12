@@ -20,7 +20,7 @@ Table Of Contents:
 /*****************************************
 Colors:
 - Backgrounds - light gray #f1f9fc
-- Buttons, icons - purple #594cda
+- Buttons, icons - purple #e31e1e
 - Buttons, icons - red #eb427e
 - Headings text - black #252c38
 - Body text - dark gray #6b747b
@@ -109,9 +109,9 @@ h6 {
 .btn-solid-reg {
     display: inline-block;
     padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-    border: 1px solid #594cda;
+    border: 1px solid #e31e1e;
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: #e31e1e;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -121,18 +121,18 @@ h6 {
 }
 
 .btn-solid-reg:hover {
-    border: 1px solid #594cda;
+    border: 1px solid #e31e1e;
     background-color: transparent;
-    color: #594cda; /* needs to stay here because of the color property of a tag */
+    color: #e31e1e; /* needs to stay here because of the color property of a tag */
     text-decoration: none;
 }
 
 .btn-solid-lg {
     display: inline-block;
     padding: 1.625rem 2.75rem 1.625rem 2.75rem;
-    border: 1px solid #594cda;
+    border: 1px solid #e31e1e;
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: #e31e1e;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -145,9 +145,9 @@ h6 {
 }
 
 .btn-solid-lg:hover {
-    border: 1px solid #594cda;
+    border: 1px solid #e31e1e;
     background-color: transparent;
-    color: #594cda; /* needs to stay here because of the color property of a tag */
+    color: #e31e1e; /* needs to stay here because of the color property of a tag */
     text-decoration: none;
 }
 
@@ -234,7 +234,7 @@ h6 {
 }
 
 .list .fas {
-    color: #594cda;
+    color: #e31e1e;
     font-size: 0.75rem;
     line-height: 1.625rem;
 }
@@ -351,9 +351,9 @@ input[type="checkbox"] {
     display: inline-block;
     width: 100%;
     height: 3.25rem;
-    border: 1px solid #594cda;
+    border: 1px solid #e31e1e;
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: #e31e1e;
     color: #252c38;
     font-weight: 600;
     font-size: 0.875rem;
@@ -416,7 +416,7 @@ input[type="checkbox"] {
 
 .navbar {
     position: relative;
-    background-color: #f1f9fc;
+    background-color: #ffffff;
     padding: 0.5rem 1rem;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -437,11 +437,9 @@ input[type="checkbox"] {
 
 .navbar-toggler-icon {
     content: "";
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
-}
+    background-color: #d06767;
+    color: white;
+    }
 
 .navbar-collapse {
     flex-basis: 100%;
@@ -457,7 +455,7 @@ input[type="checkbox"] {
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #f1f9fc;
+    background-color: #ffffff;
     transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -475,6 +473,7 @@ input[type="checkbox"] {
     padding-bottom: 0.625rem;
     color: #6b747b;
     text-decoration: none;
+    font-size: 18px;
     line-height: 0.875rem;
     transition: all 0.2s ease;
 }
@@ -501,7 +500,7 @@ input[type="checkbox"] {
 .dropdown.show > a,
 .nav-link:hover,
 .nav-link.active {
-    color: #ff6e84;
+    color: #e01231;
     text-decoration: none;
 }
 
@@ -573,7 +572,7 @@ input[type="checkbox"] {
 /*    Header     */
 /*****************/
 .header {
-    background: linear-gradient(rgba(197, 234, 249, 1), rgba(255, 255, 255, 1));
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 1));
 }
 
 /********************/
@@ -590,7 +589,7 @@ input[type="checkbox"] {
     padding: 3.125rem 1rem 2.125rem 1rem;
     border: none;
     border-radius: 16px;
-    background-color: #f1f9fc;
+    background-color: #f8f8f8;
 }
 
 .cards-1 .card-image {
@@ -598,7 +597,7 @@ input[type="checkbox"] {
 }
 
 .cards-1 .card-image img {
-    width: 70px;
+    width: 200px;
     height: 70px;
     margin-right: auto;
     margin-left: auto;
@@ -636,7 +635,7 @@ input[type="checkbox"] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-    color: #594cda;
+    color: #e31e1e;
 }
 /* end of action Button */
 
@@ -876,7 +875,7 @@ input[type="checkbox"] {
 .footer {
     padding-top: 6rem;
     padding-bottom: 3rem;
-    background: linear-gradient(rgba(255, 255, 255, 1), rgba(197, 234, 249, 1));
+    background: linear-gradient(#FD957A, #DA0707);
     text-align: center;
 }
 
@@ -914,7 +913,7 @@ input[type="checkbox"] {
 /*********************/
 .copyright {
     padding-top: 1.5rem;
-    background-color: #c5eaf9;
+    background-color: #f8f8f8;
     text-align: center;
 }
 
@@ -945,7 +944,7 @@ a:hover.back-to-top {
 .ex-header {
     padding-top: 8.5rem;
     padding-bottom: 4rem;
-    background-color: #f1f9fc;
+    background-color: #ffffff;
 }
 
 .ex-basic-1 .list-unstyled .fas {
@@ -955,7 +954,7 @@ a:hover.back-to-top {
 
 .ex-basic-1 .text-box {
     padding: 1.25rem 1.25rem 0.5rem 1.25rem;
-    background-color: #f1f9fc;
+    background-color: #ffffff;
 }
 
 .ex-cards-1 .card {
@@ -1020,7 +1019,7 @@ a:hover.back-to-top {
     .navbar.top-nav-collapse {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        background-color: #f1f9fc;
+        background-color: #ffffff;
     }
 
     .offcanvas-collapse {
